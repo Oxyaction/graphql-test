@@ -7,6 +7,7 @@ import schema from './schema';
 
 const app = new Koa();
 const router = new Router();
+const port = process.env.PORT || 3000;
 
 app
   .use(async (ctx, next) => {
@@ -22,6 +23,6 @@ router.all('/graphql', convert(graphqlHTTP({
 
 app.use(router.routes()).use(router.allowedMethods());
 
-app.listen(3000, () => {
-  console.log('Listening');
+app.listen(port, () => {
+  console.log('Listening on port %d', port);
 });
