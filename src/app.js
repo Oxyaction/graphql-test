@@ -4,10 +4,13 @@ import Router from 'koa-router';
 import convert from 'koa-convert';
 import graphqlHTTP from 'koa-graphql';
 import schema from './schema';
+import serve from 'koa-static';
 
 const app = new Koa();
 const router = new Router();
 const port = process.env.PORT || 3000;
+
+app.use(convert(serve(`${__dirname}/../static`)));
 
 app
   .use(async (ctx, next) => {

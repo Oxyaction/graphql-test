@@ -1,17 +1,128 @@
 {
-  "1": {
-    "id": "1",
-    "name": "Dan",
-    "friends": ["2", "3"]
+  "manufacturer": {
+    "1": {
+      "id": "1",
+      "name": "Tesla",
+      "description": "This is Tesla manufacturer",
+      "image": "tesla.jpg",
+      "products": ["1", "3"]
+    },
+    "2": {
+      "id": "2",
+      "name": "iJoy",
+      "description": "This is iJoy manufacturer",
+      "image": "ijoy-banner.jpg",
+      "products": ["2"]
+    }
   },
-  "2": {
-    "id": "2",
-    "name": "Marie",
-    "friends": ["1"]
+  "category": {
+    "1": {
+      "id": "1",
+      "name": "Mods",
+      "description": "this is mods desc",
+      "products": ["1", "2"]
+    },
+    "2": {
+      "id": "2",
+      "name": "Tanks/RDAs",
+      "description": "this is tanks desc",
+      "products": ["3"]
+    },
+    "3": {
+      "id": "3",
+      "name": "Batteries",
+      "description": "this is batteries desc",
+      "products": []
+    },
+    "4": {
+      "id": "4",
+      "name": "E Liquid",
+      "description": "this is E Liquid desc",
+      "products": []
+    },
+    "5": {
+      "id": "5",
+      "name": "Accessories",
+      "description": "this is accessories desc",
+      "products": []
+    }
   },
-  "3": {
-    "id": "3",
-    "name": "Jessie",
-    "friends": ["2, 1"]
+  "product": {
+    "1": {
+      "id": "1",
+      "name": "Tesla Nano 60w TC Mod",
+      "image": "Tesla_Nano_60W_TC_5__43763.1465515804.1280.1280.jpg",
+      "description": "The Tesla Nano 60W TC Box Mod is not to be judged because of its size. This mod has an incredibly versatile chipset that allows it to perform a range of functions like dual temperature control functionality, and allows it to fire at resistances as low as 0.05ohms. The Nano has an internal 3600mAh Dual Cell LiPo Battery and was built with ventilation holes in its Zinc Alloy body. With an intuitive OLED display, and a suite of on-board protection, the Tesla Nano 60W offers a safe vaping experience.",
+      "features": [
+        "3600mAh Dual LiPo Batteries",
+        "Wattage Output Range: 7~60W",
+        "Maximum Voltage Output: 8V",
+        "Min Atomizer Resistance: 0.05ohm",
+        "Superior Zinc Alloy Construction",
+        "Intuitive OLED Display",
+        "Three-Button Operation",
+        "Bypass Mode Capability",
+        "Dual Temperature Control Regulation",
+        "Ni200 Nickel and Titanium Compatible",
+        "Low Voltage Warning",
+        "Short Circuit Protection",
+        "Atomizer Short Protection",
+        "No Atomizer Protection",
+        "MicroUSB Charging Port",
+        "Silver-Plated Brass 510 Connection"
+      ],
+      "includes": [
+        "1 Tesla Nano 60W TC Box Mod",
+        "1 MicroUSB Charger",
+        "Instruction Manual"
+      ]
+    },
+    "2": {
+      "id": "2",
+      "name": "Asolo Mod 200w",
+      "image": "iJoy_Asolo_mod_black_w_green_sleeve___74384.1465516914.1280.1280.jpg",
+      "description": "The IJOY Asolo 200W Box Mod is the most simple temperature control device on the market. Choose a good wattage for the tank and try several puffs. When you find your favorite flavor, you can press the bottom to tell the device you love this taste, and the device will keep it in its memory. Enter the temperature control mode by pressing the bottom of the big “T”. Operate the temperature control easily by choosing the %’ F from 80%~110%. It is most like the YIHI SX mini temperature control box mod and has a Soft~Standard~Power~ Power plus. The IJOY Asolo 200W Box Mod has 80%~81%~82%……~109%~110%. After choosing a temperature control mode, if you would like to lock the mode, simply press both sides of the big “T” and it will lock that mode. If you want to get out of the temperature control mode, simply press the bottom of the big “T”. The IJOY Asolo 200W Box Mod is the most accurate device for temperature control and the best way to keep your coil from having a burn taste.",
+      "features": [
+        "Fire Method：Metal Stretch button", "",
+        "Screen Size：0.91″OLED", "",
+        "Heating coil material：Nickel,Titanium and Kanthal wire", "",
+        "Temperature Range：300°F~600°F", "",
+        "Temperature Resistance Range：0.15ohm~2.5ohm", "",
+        "Atomizer Resistance Range：0.08ohm~3.0ohm", "",
+        "Output Current：1.0A~35A", "",
+        "Output Voltage：1.0Volts~7.5Volts", "",
+        "Output Power：5watts~200watts", "",
+        "510 spring loaded connection"
+      ],
+      "includes": [
+        "1 Tesla Nano 60W TC Box Mod",
+        "1 MicroUSB Charger",
+        "Instruction Manual"
+      ]
+    },
+    "3": {
+      "id": "3",
+      "name": "Tesla Nano 60w TC Kit Tornado Tank",
+      "image": "Tesla_Nano_60w_TC_Kit_2__17897.1465516779.1280.1280.jpg",
+      "description": "The IJOY Asolo 200W Box Mod is the most simple temperature control device on the market. Choose a good wattage for the tank and try several puffs. When you find your favorite flavor, you can press the bottom to tell the device you love this taste, and the device will keep it in its memory. Enter the temperature control mode by pressing the bottom of the big “T”. Operate the temperature control easily by choosing the %’ F from 80%~110%. It is most like the YIHI SX mini temperature control box mod and has a Soft~Standard~Power~ Power plus. The IJOY Asolo 200W Box Mod has 80%~81%~82%……~109%~110%. After choosing a temperature control mode, if you would like to lock the mode, simply press both sides of the big “T” and it will lock that mode. If you want to get out of the temperature control mode, simply press the bottom of the big “T”. The IJOY Asolo 200W Box Mod is the most accurate device for temperature control and the best way to keep your coil from having a burn taste.",
+      "features": [
+        "Fire Method：Metal Stretch button", "",
+        "Screen Size：0.91″OLED", "",
+        "Heating coil material：Nickel,Titanium and Kanthal wire", "",
+        "Temperature Range：300°F~600°F", "",
+        "Temperature Resistance Range：0.15ohm~2.5ohm", "",
+        "Atomizer Resistance Range：0.08ohm~3.0ohm", "",
+        "Output Current：1.0A~35A", "",
+        "Output Voltage：1.0Volts~7.5Volts", "",
+        "Output Power：5watts~200watts", "",
+        "510 spring loaded connection"
+      ],
+      "includes": [
+        "1 Tesla Nano 60W TC Box Mod",
+        "1 MicroUSB Charger",
+        "Instruction Manual"
+      ]
+    }
   }
 }
+
