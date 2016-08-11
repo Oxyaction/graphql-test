@@ -11,3 +11,6 @@ permissions:
      mode: 755
      type:
        - file
+AfterInstall:
+ - location: scripts/restartnginx.sh
+   runas: root
